@@ -8,12 +8,12 @@ import LoginForm from './src/components/LoginForm';
 class App extends Component {
 	componentWillMount() {
 		const config = {
-			apiKey: 'AIzaSyCqp79BKDwR3zBg26K58u1GDl6bhX2b4LE',
-			authDomain: 'react-native-firebase-au-b3836.firebaseapp.com',
-			databaseURL: 'https://react-native-firebase-au-b3836.firebaseio.com',
-			projectId: 'react-native-firebase-au-b3836',
-			storageBucket: 'react-native-firebase-au-b3836.appspot.com',
-			messagingSenderId: '137894412922'
+			apiKey: 'AIzaSyBiifMrfoNsg6-kmoFjTwYaGca4gizGcmQ',
+			authDomain: 'loginform-d65c7.firebaseapp.com',
+			databaseURL: 'https://loginform-d65c7.firebaseio.com',
+			projectId: 'loginform-d65c7',
+			storageBucket: 'loginform-d65c7.appspot.com',
+			messagingSenderId: '828500322165'
 		};
 		firebase.initializeApp(config);
 	}
@@ -21,7 +21,7 @@ class App extends Component {
 	render() {
 		return (
 			<View>
-				<Header title='Firebase Auth' />
+				<Header />
 					<LoginForm />
 			</View>
 		);

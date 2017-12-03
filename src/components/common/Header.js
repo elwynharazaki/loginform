@@ -15,15 +15,14 @@ const styles = {
    headerStyle: {
       alignItems: 'center',
       backgroundColor: '#444444',
-      elevation: 5,
+      elevation: 2,
       shadowColor: '#083861',
-      shadowOffset: { width: 0, height: 20 },
       shadowOpacity: 0.9
    },
 
    textStyle: {
       color: '#F9F9F9',
-      fontSize: 30,
+      fontSize: 25,
       padding: 5
    }
 };

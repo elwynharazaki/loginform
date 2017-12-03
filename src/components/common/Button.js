@@ -14,18 +14,15 @@ const Button = (props) => {
 
 const styles = {
    buttonStyle: {
-      alignSelf: 'stretch',
-      alignItems: 'center',
+      alignSelf: 'center',
       borderRadius: 4,
-      color: '#F9F9F9',
-      flex: 1,
-      fontSize: 15,
-      padding: 2
+      backgroundColor: '#F9F9F9',
+      width: '100%'
    },
 
    textStyle: {
       alignSelf: 'center',
-      color: '#007aff',
+      color: '#F9F9F9',
       fontSize: 16,
       fontWeight: '600',
       paddingBottom: 10,
