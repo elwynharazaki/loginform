@@ -88,12 +88,14 @@ class LoginForm extends Component {
    }
 
    render() {
-      const { textStyle, viewStyle } = styles;
+      const { viewStyle } = styles;
 
       return (
          <Card>
             <CardSection>
                <Input
+                  autoCapitalize={'none'}
+                  autoCorrect={false}
                   text='email'
                   placeholder='name@email.com'
                   underlineColorAndroid='transparent'
@@ -140,12 +142,6 @@ class LoginForm extends Component {
 }
 
 const styles = {
-   textStyle: {
-      color: '#F4F4F4',
-      fontSize: 20,
-      padding: 2
-   },
-
    viewStyle: {
       alignItems: 'center',
       flex: 1
